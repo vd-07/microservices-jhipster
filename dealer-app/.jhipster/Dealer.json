@@ -1,0 +1,21 @@
+{
+  "changelogDate": "20220512171607",
+  "clientRootFolder": "dealersapp",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "dealersapp",
+  "name": "Dealer",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

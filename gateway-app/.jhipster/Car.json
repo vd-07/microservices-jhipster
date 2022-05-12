@@ -1,0 +1,26 @@
+{
+  "changelogDate": "20220512165259",
+  "clientRootFolder": "carsapp",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "make",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "model",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "carsapp",
+  "microservicePath": "../car-app",
+  "name": "Car",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
