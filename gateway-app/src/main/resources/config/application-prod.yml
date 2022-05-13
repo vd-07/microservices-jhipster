@@ -17,7 +17,7 @@ logging:
   level:
     ROOT: INFO
     tech.jhipster: INFO
-    com.gateway: INFO
+    com.gateway.app: INFO
 
 eureka:
   instance:
@@ -127,7 +127,7 @@ jhipster:
         # - In the JHipster Registry (which includes a Spring Cloud Config server)
         # - In a separate `application-prod.yml` file, in the same folder as your executable JAR file
         # - In the `JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET` environment variable
-        base64-secret: NmY3Zjk1ZGNlODQyYjRiM2NkMGJhY2JkYzEwMzZiM2E5YmZkYjY3YWUxMzhkOTE0ODcxNzE5NWUyNjkxNTQ5ZjBiMjBkMTRkMTkwNGFmMmFiMTQ1ZDYwZWRjMDY3OTI0YjJiNjQ0ZDAwOWZlMjczYTFiZjUxZmU1ZDBmNTY4NGU=
+        base64-secret: YjgyYmQwM2JiMzdiODFiZTRjYmJhMDM0NjFkYTY0ZDk1OGFjMjAwNTViNmM2MzRlMGUzZjIxNTZlNDk0OWI1ZTRjMzVkODYyNDM5YzU0YTAwNWExZDYwMmUxYWNhMTNiMjA2ZTljZDE5OWFjYTNkMGE4NTNhNDBjZjUxMzg5Njk=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 2592000

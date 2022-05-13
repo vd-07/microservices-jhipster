@@ -2,13 +2,15 @@ import './footer.scss';
 
 import React from 'react';
 
-import { Badge } from 'reactstrap';
+import { Col, Row } from 'reactstrap';
 
 const Footer = () => (
-  <div className="footer text-center page-content">
-    <div>
-      <Badge>Built with &#10084; &nbsp; by Satish, Thrinod and Vivek</Badge>
-    </div>
+  <div className="footer page-content">
+    <Row>
+      <Col md="12">
+        <p>Your footer</p>
+      </Col>
+    </Row>
   </div>
 );
 
